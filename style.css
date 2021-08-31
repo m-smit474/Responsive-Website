@@ -38,7 +38,7 @@ body{
 
 .header nav ul{
     overflow: hidden;
-    background: rgb(0, 0, 167);
+    background: rgb(18, 18, 85);
     height: 0;
 }
 
@@ -58,6 +58,7 @@ body{
     padding: 7px;
     border-bottom: 1px solid navy;
     display: block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .content-area{
