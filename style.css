@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:blueviolet;
+    background-color:rgba(137, 43, 226, 0.575);
 }
 
 /* Mobile */
@@ -21,6 +21,9 @@ body{
     height:auto;
     background-color: navy;
     grid-area: header;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
 
     text-align: center;
     color: lightgray;
@@ -58,7 +61,7 @@ body{
 }
 
 .content-area{
-    height: 85vh;
+    height: 185vh;
     padding: 0;
     margin: 0;
     background-color: lightgray;
@@ -78,8 +81,8 @@ body{
 @media screen and (min-width: 812px) {
     .grid{
         display: grid;
-        grid-template-columns: 15% 35% 35%
-        15%;
+        grid-template-columns: 
+        10% 40% 40% 10%;
         grid-template-areas: 
         ". header header . "
         ". content content ."
