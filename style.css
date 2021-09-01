@@ -73,7 +73,7 @@ body{
 .home{
     height: 85vh;
     width: 100%;
-    background-image: url("Images/3-bars.png");
+    background-image: url("Images/background-small.jpg");
     background-size: cover;
     background-position: center center;
     position: fixed;
@@ -104,6 +104,18 @@ body{
     position: relative;
 }
 
+/* Tablet */
+@media screen and (min-width: 412px) {
+
+    .home{
+        background-image: url("Images/background-medium.jpg");
+        background-position: center center;
+    }
+    .header{
+        text-align: none;
+    }
+}
+
 
 /* Desktop */
 @media screen and (min-width: 812px) {
@@ -115,6 +127,13 @@ body{
         ". header header . "
         ". content content ."
         ". footer footer .";
+    }
+
+    .home{
+        background-image: url("Images/background-full.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 80%;
     }
 
     .header{
