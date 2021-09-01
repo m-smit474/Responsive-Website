@@ -62,7 +62,7 @@ body{
 }
 
 .content-area{
-    height: 185vh;
+    height: auto;
     padding: 0;
     margin: 0;
     background-color: lightgray;
@@ -70,11 +70,38 @@ body{
     text-align: center;
 }
 
+.home{
+    height: 85vh;
+    width: 100%;
+    background-image: url("Images/3-bars.png");
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+}
+
+.about{
+    position: relative;
+    top: 85vh;
+    height: 50vh;
+    width: 100%;
+    background-color: green;
+}
+
+.contact{
+    position: relative;
+    top: 85vh;
+    height: 50vh;
+    width: 100%;
+    background-color: blue;
+}
+
 .footer{
     height: 5vh;
     padding: 0;
     background-color: black;
     grid-area: footer;
+    top: 85vh;
+    position: relative;
 }
 
 
