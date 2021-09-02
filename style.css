@@ -143,6 +143,7 @@ body{
 
 /* Desktop */
 @media screen and (min-width: 812px) {
+    /*
     .grid{
         display: grid;
         grid-template-columns: 
@@ -152,15 +153,11 @@ body{
         ". content content ."
         ". footer footer .";
     }
+    */
 
     .home{
-        background-image: url("Images/fog-background-full.webp");
-        background-size: cover;
+        background-image: url("Images/background-full.jpg");
         background-position: center center;
-        width: 80%;
-    }
-
-    .header{
-        text-align: none;
+        background-size: cover;
     }
 }
